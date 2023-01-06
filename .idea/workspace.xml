@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aee332e1-9f86-4dd2-a476-02c6d28564ab" name="변경" comment="fix : Use Array.toString method for printing array">
+    <list default="true" id="aee332e1-9f86-4dd2-a476-02c6d28564ab" name="변경" comment="refactor: Rename some variables&#10;docs: Add docs about PythagoreanTheorem">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lemonpeeel/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lemonpeeel/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lemonpeeel/MathHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lemonpeeel/MathHelper.java" afterDir="false" />
@@ -117,12 +117,28 @@
       <option name="project" value="LOCAL" />
       <updated>1672971674090</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="refactor: Rename some variables&#10;docs: Add docs in MathHelper class">
+      <created>1672972773494</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1672972773494</updated>
+    </task>
+    <task id="LOCAL-00011" summary="refactor: Rename some variables&#10;docs: Add docs about PythagoreanTheorem">
+      <created>1672973164759</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1672973164759</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lazy commit" />
     <MESSAGE value="fix : Use Array.toString method for printing array" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix : Use Array.toString method for printing array" />
+    <MESSAGE value="refactor: Rename some variables&#10;docs: Add docs in MathHelper class" />
+    <MESSAGE value="refactor: Rename some variables&#10;docs: Add docs about PythagoreanTheorem" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: Rename some variables&#10;docs: Add docs about PythagoreanTheorem" />
   </component>
 </project>

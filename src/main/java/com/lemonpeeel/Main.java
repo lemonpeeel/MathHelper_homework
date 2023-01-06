@@ -35,7 +35,24 @@ public class Main {
 
             }
 
-            case "2" -> {}
+            case "2" -> {
+                System.out.println("Please enter the lengths of the three sides of the triangle in order.");
+
+                System.out.println("Enter the height of the triangle.");
+                String firstString = scan.nextLine();
+
+                System.out.println("Enter the length of the base of a triangle.");
+                String secondString = scan.nextLine();
+
+                System.out.println("Enter the length of the hypotenuse of the triangle.");
+                String thirdString = scan.nextLine();
+
+                double result = MathHelper.PythagoreanTheorem(firstString, secondString, thirdString);
+
+                System.out.println(new StringBuilder().append("the result is ").append(result).toString());
+
+
+            }
 
 
         }
