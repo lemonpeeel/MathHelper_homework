@@ -45,28 +45,44 @@ public class MathHelper {
             return a + b - c;
 
         }
-        double resultsOfPythagoreanOperation =
+        double result =
                 Math.pow(c, 2) - Math.pow(a, 2) - Math.pow(b, 2);
 
-        if (resultsOfPythagoreanOperation < 0) {
+        if (result < 0) {
             System.out.println("This triangle is an acute triangle.");
 
-            return resultsOfPythagoreanOperation;
+            return result;
         }
-        else if (resultsOfPythagoreanOperation == 0) {
+        else if (result == 0) {
             System.out.println("This triangle is a right triangle.");
 
-            return resultsOfPythagoreanOperation;
+            return result;
         }
         else {
             System.out.println("This triangle is an obtuse triangle.");
 
-            return resultsOfPythagoreanOperation;
+            return result;
         }
 
+    }
 
 
+    public static double slopeFormulaOfLine (String firstString, String secondString, String thirdString, String forthString) {
 
+        double x1 = Double.parseDouble(firstString);
+        double y1 = Double.parseDouble(secondString);
+        double x2 = Double.parseDouble(thirdString);
+        double y2 = Double.parseDouble(forthString);
+
+        if (x1 == x2) {
+            System.out.println("You cannot put 0 in the denominator.");
+            return x1 - x2;
+        }
+
+        double increasedX = x2 - x1;
+        double increasedY = y2 - y1;
+
+        return increasedY/increasedX;
     }
 
 

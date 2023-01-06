@@ -54,6 +54,34 @@ public class Main {
 
             }
 
+            case "3" -> {
+                System.out.println("Please enter two points to find the slope.");
+
+                System.out.println("Enter the first x point.");
+                String firstX = scan.nextLine();
+
+                System.out.println("Enter the first y point.");
+                String firstY = scan.nextLine();
+
+                System.out.println("Enter the second x point.");
+                String secondX = scan.nextLine();
+
+                System.out.println("Enter the second y point.");
+                String secondY = scan.nextLine();
+
+                double result = MathHelper.slopeFormulaOfLine(firstX, firstY, secondX, secondY);
+
+                System.out.println(new StringBuilder().append("The slope is ").append(result).toString());
+
+
+
+
+
+
+
+
+            }
+
 
         }
 
