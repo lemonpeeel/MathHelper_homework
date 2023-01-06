@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aee332e1-9f86-4dd2-a476-02c6d28564ab" name="변경" comment="lazy commit">
+    <list default="true" id="aee332e1-9f86-4dd2-a476-02c6d28564ab" name="변경" comment="fix : Use Array.toString method for printing array">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lemonpeeel/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lemonpeeel/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lemonpeeel/MathHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lemonpeeel/MathHelper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,11 +110,19 @@
       <option name="project" value="LOCAL" />
       <updated>1672968157715</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fix : Use Array.toString method for printing array">
+      <created>1672971674090</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1672971674090</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lazy commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="lazy commit" />
+    <MESSAGE value="fix : Use Array.toString method for printing array" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix : Use Array.toString method for printing array" />
   </component>
 </project>
