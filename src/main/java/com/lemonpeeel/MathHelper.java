@@ -25,13 +25,13 @@ public class MathHelper {
 
     public static double PythagoreanTheorem (String firstString, String secondString, String thirdString) {
 
-        double heightOfTriangle = Double.parseDouble(firstString);
-        double baseOfTriangle = Double.parseDouble(secondString);
-        double hypotenuseOfTriangle = Double.parseDouble(thirdString);
+        double a = Double.parseDouble(firstString);//a = height of Triangle, 높이
+        double b = Double.parseDouble(secondString);//b = base of Triangle, 밑변
+        double c = Double.parseDouble(thirdString);//c = hypotenuseOfTriangle, 빗변
 
-        if (Math.abs(heightOfTriangle) + Math.abs(baseOfTriangle) > Math.abs(hypotenuseOfTriangle)) {
+        if (Math.abs(a) + Math.abs(b) > Math.abs(c)) {
             double resultsOfPythagoreanOperation =
-                    Math.pow(hypotenuseOfTriangle, 2) - Math.pow(heightOfTriangle, 2) - Math.pow(baseOfTriangle, 2);
+                    Math.pow(c, 2) - Math.pow(a, 2) - Math.pow(b, 2);
 
             if (resultsOfPythagoreanOperation < 0) {
                 System.out.println("The result is " + resultsOfPythagoreanOperation +".");
@@ -55,7 +55,7 @@ public class MathHelper {
         }
         else {
             System.out.println("It's not a triangle.");
-            return hypotenuseOfTriangle;
+            return c;
         }
     }
 
