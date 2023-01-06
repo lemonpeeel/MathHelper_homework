@@ -45,28 +45,28 @@ public class MathHelper {
             return a + b - c;
 
         }
-        else {
+        double resultsOfPythagoreanOperation =
+                Math.pow(c, 2) - Math.pow(a, 2) - Math.pow(b, 2);
 
-            double resultsOfPythagoreanOperation =
-                    Math.pow(c, 2) - Math.pow(a, 2) - Math.pow(b, 2);
+        if (resultsOfPythagoreanOperation < 0) {
+            System.out.println("This triangle is an acute triangle.");
 
-            if (resultsOfPythagoreanOperation < 0) {
-                System.out.println("This triangle is an acute triangle.");
-
-                return resultsOfPythagoreanOperation;
-            }
-            else if (resultsOfPythagoreanOperation == 0) {
-                System.out.println("This triangle is a right triangle.");
-
-                return resultsOfPythagoreanOperation;
-            }
-            else {
-                System.out.println("This triangle is an obtuse triangle.");
-
-                return resultsOfPythagoreanOperation;
-            }
-
+            return resultsOfPythagoreanOperation;
         }
+        else if (resultsOfPythagoreanOperation == 0) {
+            System.out.println("This triangle is a right triangle.");
+
+            return resultsOfPythagoreanOperation;
+        }
+        else {
+            System.out.println("This triangle is an obtuse triangle.");
+
+            return resultsOfPythagoreanOperation;
+        }
+
+
+
+
     }
 
 
