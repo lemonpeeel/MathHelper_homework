@@ -1,5 +1,6 @@
 package com.lemonpeeel;
 
+import java.util.Arrays;
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
@@ -29,10 +30,12 @@ public class Main {
 
                 double[] result = MathHelper.quadraticFormula(firstString, secondString, thirdString);
 
-                System.out.println("The result is " + result);
+                System.out.println("The result is " + Arrays.toString(result));
 
 
             }
+
+
         }
 
 
